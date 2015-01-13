@@ -10,5 +10,6 @@ source "https://rubygems.org"
   gem 'rspec'
   gem 'shotgun'
   gem 'create_awesome_readme'
+  gem 'database_cleaner'
 
 
