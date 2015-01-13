@@ -5,6 +5,7 @@ source "https://rubygems.org"
   gem 'dm-postgres-adapter'
   gem 'shotgun'
   gem 'create_awesome_readme'
+  gem 'bcrypt-ruby'
  
   
 
