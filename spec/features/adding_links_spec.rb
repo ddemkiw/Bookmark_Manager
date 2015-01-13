@@ -11,7 +11,7 @@ feature "User adds a new link" do
     expect(link.title).to eq("Makers Academy")
   end
 
-    scenario "with a few tags" do
+  scenario "with a few tags" do
     visit "/"
     add_link("http://www.makersacademy.com/",
                 "Makers Academy",
