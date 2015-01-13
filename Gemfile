@@ -11,5 +11,6 @@ source "https://rubygems.org"
   gem 'shotgun'
   gem 'create_awesome_readme'
   gem 'database_cleaner'
+  gem 'bcrypt-ruby'
 
 
