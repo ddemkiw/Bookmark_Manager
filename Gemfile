@@ -7,6 +7,7 @@ source "https://rubygems.org"
   gem 'bcrypt-ruby'
   gem 'rack-flash3'
   gem 'shotgun'
+  gem 'sinatra-partial'
 
 
 group :test do
