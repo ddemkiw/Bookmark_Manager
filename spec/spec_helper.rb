@@ -60,11 +60,7 @@ RSpec.configure do |config|
   end
 
   Capybara.app = Sinatra::Application
-<<<<<<< HEAD
-  
-=======
 
->>>>>>> ad76d02d331acebe5395e0dab710a80ebd949e64
 # The settings below are suggested to provide a good initial experience
 # with RSpec, but feel free to customize to your heart's content.
 =begin
