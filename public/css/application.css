@@ -15,8 +15,15 @@ a.button {
   font-family: Helvetica, Arial, Sans-serif; 
 }
 
+a.button.highlighted {
+  margin-right: 800px;
+  margin-left: 40px;
+  background-color: #b77843;
+}
+
 body{
-  background-image: url(/images/extra_clean_paper.png)
+  background-image: url(/images/extra_clean_paper.png);
+  font-family: Helvetica, Arial, Sans-serif;
 }
 
 header {
@@ -26,13 +33,16 @@ header {
   color: white;
   display: flex;
   padding: 0 5px;
+  
 
 }
 
 header #logo{ 
+  text-decoration: none;
+  color: white;
   margin: auto 0;
   display: flex;
-  padding-right: 500px;
   font-family: Helvetica, Arial, Sans-serif;
+ 
 }
 

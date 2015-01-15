@@ -7,3 +7,9 @@ post '/links' do
   Link.create(:url => url, :title => title, :tags => tags)
   redirect to ('/')
 end
+
+get '/links/new' do
+  erb :"links/new" 
+end
+
+ 
