@@ -8,6 +8,9 @@ class User
 	property :id, Serial
 	property :email, String, :unique => true, :message => "This email is already taken"
   property :password_digest, Text
+  # property :password_token, Text 
+  # after you add to the database, you need to RAKE auto_upgrade or auto_migrate - it depends on how much you are changing the table and if you will be losing data
+  
 
   attr_reader :password
   attr_accessor :password_confirmation

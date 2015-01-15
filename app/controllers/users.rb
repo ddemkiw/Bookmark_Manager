@@ -15,3 +15,7 @@ post '/users' do
     erb :'users/new'
   end
 end
+
+# get '/user/reset_password/:token' do 
+# 
+# end 
