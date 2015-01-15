@@ -8,6 +8,7 @@ source "https://rubygems.org"
   gem 'rack-flash3'
   gem 'shotgun'
   gem 'sinatra-partial'
+  # mailgun-ruby <- for email 
 
 
 group :test do

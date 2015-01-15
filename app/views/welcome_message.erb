@@ -1,7 +1,20 @@
-<% if current_user %>
-  Welcome, <%= current_user.email %>
-  <form method="post" action="/sessions">
-    <input type="hidden" name="_method" value="delete">
-    <input type="submit" value="Sign out">
-  </form>
-<% end %>
+<!DOCTYPE html>
+<html>
+  <header>
+    <div id="logo">Bookmark Manager</div>
+    <div id="user-links">
+      <% if current_user %>
+      <span id="welcom-message">
+        Welcome, <%= current_user.email %>
+      </span>
+    <form method="post" action="/sessions">
+      <input type="hidden" name="_method" value="delete">
+      <input type="submit" value="Sign out">
+    </form>
+    <%else%> 
+      <a href='/users/new' id='sign-up' class='button'>Sign up</a>
+      <a href='/sessions/new' id='sign-in' class='button'>Sign in</a>   
+    <% end %>
+  </header>
+</html>
+
