@@ -1,3 +1,4 @@
+/* Links.erb */
 .link {
   background-color: #EEE; /* same as #EEEEEE */
   box-shadow: 0 0 5px rgba(0,0,0,0.4);
@@ -23,7 +24,7 @@
   }
 
 
-
+/*Welcome Message*/
 a.button {
   display: inline-block; /* display inline but have dimensions */
   width: 80px;
@@ -46,6 +47,23 @@ a.button.highlighted {
   background-color: #b77843;
 }
 
+header #logo{ 
+  text-decoration: none;
+  color: white;
+  margin: auto 0;
+  display: flex;
+  font-family: Helvetica, Arial, Sans-serif;
+ 
+}
+
+#links-container{
+  background-color: white;
+  box-shadow: 0 0 5px rgba(0,0,0,0.4);
+  margin: 40px;
+  padding: 15px 10px;
+}
+
+/*Index (Homepage*/
 body{
   background-image: url(/images/extra_clean_paper.png);
   font-family: Helvetica, Arial, Sans-serif;
@@ -62,19 +80,5 @@ header {
 
 }
 
-header #logo{ 
-  text-decoration: none;
-  color: white;
-  margin: auto 0;
-  display: flex;
-  font-family: Helvetica, Arial, Sans-serif;
- 
-}
 
-#links-container{
-  background-color: white;
-  box-shadow: 0 0 5px rgba(0,0,0,0.4);
-  margin: 40px;
-  padding: 15px 10px;
-}
 
