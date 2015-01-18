@@ -5,12 +5,12 @@
     <div id="user-links">
     <a href="/links/new" class="button highlighted">Add link</a>
       <% if current_user %>
-      <span id="welcom-message">
+      <span id="welcome-message">
         Welcome, <%= current_user.email %>
       </span>
-    <form method="post" action="/sessions">
+    <form method="post" class='button' action="/sessions">
       <input type="hidden" name="_method" value="delete">
-      <input type="submit" value="Sign out">
+      <input type="submit"  value="Sign out">
     </form>
     <%else%> 
       <a href='/users/new' id='sign-up' class='button'>Sign up</a>
